@@ -11,6 +11,10 @@ Our enterprise benchmarks on bare-metal hardware achieve:
 - **Latency:** < 0.1 ms (p99 under 75 ms for massive 2MB payload dumps)
 - **Concurrency:** 19,000+ HTTP requests per second (SaaS HTTP layer)
 
+## 📺 Benchmarks & Proof of Concept
+Watch the system absorb a continuous `k6` attack while simultaneously processing massive 250KB context dumps with zero dropped connections:
+👉 **[Watch the 250KB Concurrent Stress Test on YouTube](https://youtu.be/TJ2UMnh_Mg8)**
+
 ## 📦 Installation
 
 Install the lightweight client SDK via pip:
