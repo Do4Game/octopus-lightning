@@ -12,8 +12,9 @@ Our enterprise benchmarks on bare-metal hardware achieve:
 - **Concurrency:** 19,000+ HTTP requests per second (SaaS HTTP layer)
 
 ## 📺 Benchmarks & Proof of Concept
-Watch the system absorb a continuous `k6` attack while simultaneously processing massive 250KB context dumps with zero dropped connections:
-👉 **[Watch the 250KB Concurrent Stress Test on YouTube](https://youtu.be/TJ2UMnh_Mg8)**
+Watch the engine in action through our raw, unedited terminal stress tests:
+1. 👉 **[1.3 GB/s Raw Throughput Benchmark](https://youtu.be/3f3V6eFdLmI)** - Watch the Core Engine process massive memory dumps at 1.3+ Gigabytes per second.
+2. 👉 **[250KB Concurrent Stress Test](https://youtu.be/TJ2UMnh_Mg8)** - Watch the system absorb a continuous `k6` attack while simultaneously processing massive 250KB context dumps with zero dropped connections.
 
 ## 📦 Installation
 
