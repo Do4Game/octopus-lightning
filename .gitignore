@@ -1,0 +1,24 @@
+# Środowiska wirtualne
+venv/
+env/
+.env
+
+# Cache Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pliki budowania (Build)
+build/
+dist/
+*.egg-info/
+
+# Narzędzia systemowe i edytory
+.DS_Store
+.vscode/
+.idea/
+
+# Sekrety i klucze API (dla bezpieczeństwa)
+*.pem
+*.key
+.env.local
