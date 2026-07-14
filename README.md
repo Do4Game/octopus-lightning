@@ -11,6 +11,9 @@ Our enterprise benchmarks on bare-metal hardware achieve:
 - **Latency:** < 0.1 ms (p99 under 75 ms for massive 2MB payload dumps)
 - **Concurrency:** 19,000+ HTTP requests per second (SaaS HTTP layer)
 
+### ⚡ Zero-Polling Event Architecture
+Stop wasting CPU cycles on constant database polling. Octopus Lightning features a native **Pub/Sub (Publish-Subscribe)** layer via Server-Sent Events (SSE). When an agent writes to the shared memory, subscribed subagents are instantly pushed the new context. True event-driven AI swarms with zero polling latency.
+
 ## 📺 Benchmarks & Proof of Concept
 Watch the engine in action through our raw, unedited terminal stress tests:
 1. 👉 **[1.3 GB/s Raw Throughput Benchmark](https://youtu.be/3f3V6eFdLmI)** - Watch the Core Engine process massive memory dumps at 1.3+ Gigabytes per second.
